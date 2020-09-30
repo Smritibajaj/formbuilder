@@ -45,7 +45,7 @@ TabPane.propTypes = {
   addNewElem: PropTypes.func,
   saveDom: PropTypes.func,
   activeFeilds: PropTypes.object,
-  activeIndex: PropTypes.object,
+  activeIndex: PropTypes.number,
   setActiveIndex: PropTypes.func,
 };
 

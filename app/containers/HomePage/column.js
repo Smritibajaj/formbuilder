@@ -44,7 +44,7 @@ export default function Column(props) {
 }
 Column.propTypes = {
   column: PropTypes.object,
-  tasks: PropTypes.object,
+  tasks: PropTypes.array,
   deleteElem: PropTypes.func,
   selectIndex: PropTypes.func,
 };
