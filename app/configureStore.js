@@ -1,5 +1,6 @@
 /**
  * Create the store with dynamic reducers
+ * including importing reducers, middleware, and enhancers
  */
 
 import { createStore, applyMiddleware, compose } from 'redux';
